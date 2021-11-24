@@ -1,4 +1,4 @@
-## Statistique 
+## Statistiques 
 
 Classement général : 53ème sur 1045
 
