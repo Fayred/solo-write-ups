@@ -30,7 +30,7 @@ for x in range(1,912):
 # pour md5_block, j'ai cherché les valeurs des octets correspondant à l'adresse
 # 0x0040404f avec radare2 et j'ai cherché dans un lecteur hexa la position 
 # des valeurs en octets trouvé précédement dans r2 (position : 12367)
-# et comme hex_content est en hexa il suffit de faire x2
+# et comme hex_content est en hexa (str) il suffit de faire x2
 	    md5_block = hashlib.md5(bytes.fromhex(hex_content[24734:24734+0x20*2])).hexdigest()
 	    if md5_block == "f3ea40bcc61066261ea3a018560434e2":
 		    hex_result = [0x63, 0x69, 0x78, 0x69, 0x63, 0x69, 0x78, 0x69, 0x28]
