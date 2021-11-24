@@ -1,4 +1,4 @@
-# Yet Another Ridiculous Acronym
+# Yet Another Ridiculous Acronym - 100pts
 
 <img src="https://i.imgur.com/hYAfA9u.png" title="" alt="" width="727">
 
