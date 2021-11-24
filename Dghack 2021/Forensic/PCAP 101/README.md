@@ -10,7 +10,7 @@ On liste les objets http et on peut voir certains noms de fichiers intéressant,
 
 ![](https://i.imgur.com/UbCur9k.png)
 
-On enregistre donc ce fichier et on commence à l'analyser son contenu :
+On enregistre donc ce fichier et on commence à analyser son contenu :
 
 ```
 $ cat zippassword 
