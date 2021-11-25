@@ -95,6 +95,6 @@ $ strings db_backup.bak|grep DGA{
 DGA{95ecd8f47dc647599e9d1f7a90974a997338cd48}}
 ```
 
-Bingo, on veut flag de challenge avec le flag : `DGA{95ecd8f47dc647599e9d1f7a90974a997338cd48}` !!
+Bingo, on peut valider le challenge avec le flag : `DGA{95ecd8f47dc647599e9d1f7a90974a997338cd48}` !!
 
 
