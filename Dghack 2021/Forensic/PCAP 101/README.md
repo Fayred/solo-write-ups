@@ -84,7 +84,7 @@ $ file zipPass
 zipPass: Zip archive data, at least v1.0 to extract
 ```
 
-On le dézippe donc le fichier, cependant on nous demande d'entrer un mot de passe pour extraire le contenu.
+On dézippe donc le fichier, cependant on nous demande d'entrer un mot de passe pour extraire le contenu.
 
 Il suffit de rentré la chaine de caractères trouvé précédement (``N6R!RXdAoTjM*3q``), qui correspond au mot de passe à rentrer :
 
