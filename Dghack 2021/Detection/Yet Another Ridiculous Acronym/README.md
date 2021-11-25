@@ -10,7 +10,7 @@ Notre but est de trouver le binaire correspondant à celui analysé avec radare2
 
 D'après ces informations, le binaire analysé sur la capture n'a pas de protection NX.
 
-Ensuite les 20 octets du binaire à l'adresse `0x0040404f` ont un checksum md5 à `f3ea40bcc61066261ea3a018560434e2`.
+Ensuite les 32 (0x20) octets du binaire à l'adresse `0x0040404f` ont un checksum md5 à `f3ea40bcc61066261ea3a018560434e2`.
 
 Pour finir à une certaine adresse quelque chose est XOR avec les octets d'une certaine adresse.
 
