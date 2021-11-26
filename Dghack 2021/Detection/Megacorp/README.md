@@ -1,6 +1,6 @@
 # Megacorp
 
-## Megacorp 1
+## Megacorp 1 - 50 points
 
 ![](https://i.imgur.com/pnsTDHh.png)
 
