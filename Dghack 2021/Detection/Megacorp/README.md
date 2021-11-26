@@ -6,7 +6,7 @@
 
 Dans cette suite de challenges, nous devons identifier l'intrusion.
 
-Dans "Megacorp 1", nous devons trouver le sha256 sur fichier ayant initié la compromission dans le domaine sur : [Kibana](http://kibana-tuazhu.inst.malicecyber.com/).
+Dans "Megacorp 1", nous devons trouver le sha256 du fichier ayant initié la compromission dans le domaine sur : [Kibana](http://kibana-tuazhu.inst.malicecyber.com/).
 
 Une fois authentifier, on va dans le menu à gauche et on clique sur ``Discover``.
 
