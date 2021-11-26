@@ -18,7 +18,7 @@ Il faut donc utiliser les filtres pour afficher le checksum des fichiers, l'empl
 
 Pour ce faire on va dans la barre de recherche à gauche et sélectionne les champs : `winlog.event_data.Hash` et `winlog.event_data.TargetFilename`.
 
-Après on cherche dans la barre supérieur `winlog.event_data.Hash : *` afin d'afficher seulement les lignes contenant le champ `winlog.event_data.Hash : * ` :
+Après on cherche dans la barre supérieur `winlog.event_data.Hash : *` afin d'afficher seulement les lignes contenant le champ `winlog.event_data.Hash` :
 
  ![](https://i.imgur.com/PiNUNFt.png)
 
