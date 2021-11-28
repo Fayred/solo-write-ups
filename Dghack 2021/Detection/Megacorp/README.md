@@ -56,7 +56,7 @@ On a 322 résultats, on regarde un peu ce que l'on à jusqu'à tomber sur un pro
 
 > Mimikatz est un outil de pointe de post-exploitation qui est capable de décharger les mots de passe de la mémoire, mais aussi les hash, les codes PIN et les tickets pour le protocole d'identification réseau Kerberos.
 
-On peut ensuite vérifier la signature en sha256 du fichier sur virustotal pour vérifier que ce soit bien le logiciel `Mimikatz` en question :
+On peut ensuite chercher la signature en sha256 du fichier sur virustotal pour vérifier que ce soit bien le logiciel `Mimikatz` en question :
 
 ![](https://i.imgur.com/cUDgEt3.png)
 
