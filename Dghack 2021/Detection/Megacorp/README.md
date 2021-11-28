@@ -26,7 +26,7 @@ Une fois cela fait nous avons 6 résultats dont le fichier initiant l'attaque, q
 
 On peut donc valider avec le flag : `DGA{3F0A801DEBE411DBCA3B572796116B56B527F85823FA84B03223CB68161D07BF}`.
 
-## Megacorp 2
+## Megacorp 2 - 150 points
 
 ![](https://i.imgur.com/2bihXPl.png)
 
@@ -40,7 +40,7 @@ Puis en cherchant dans la barre du haut : `host.hostname : DK2021002 and winlog.
 
 On valider le challenge avec le flag : `DGA{tAdOaSoAfpmBCIRD}`
 
-## Megacorp 3
+## Megacorp 3 - 50 points
 
 ![](https://i.imgur.com/a0vUWL2.png)
 
