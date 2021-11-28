@@ -46,7 +46,7 @@ On valider le challenge avec le flag : `DGA{tAdOaSoAfpmBCIRD}`
 
 Pour "Megacorp 3", nous devons trouver le process GUID du programme ayant été utilisé pour la génération du golden ticket.
 
-On va donc commencer à selectionner les champs `process.name`,  `message` et `process.hash.sha256` à gauche.
+On va donc commencer à sélectionner les champs `process.name`,  `message` et `process.hash.sha256` à gauche.
 
 Ensuite on cherche dans la barre en haut : `process.name : *` .
 
