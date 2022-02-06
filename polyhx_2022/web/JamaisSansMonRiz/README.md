@@ -288,4 +288,4 @@ On va donc essayer d'y accéder via la LFI :
 
 ![](https://i.imgur.com/GS1BJ1j.png)
 
-Bingo, 3ème partie validé ! 3ème flag : `https://i.imgur.com/GS1BJ1j.png`
+Bingo, 3ème partie validé ! 3ème flag : `FLAG{3_you_get_a_token_you_get_a_token_you_get_a_token} `
