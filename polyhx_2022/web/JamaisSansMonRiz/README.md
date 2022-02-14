@@ -14,7 +14,7 @@ Pour la 1ère Partie de cette suite de challenges, le 1er flag ce trouve dans le
 
 # JAMAIS SANS MON RIZ 2 - 200 points
 
-Une fois le fichier "robots.txt", on voit dans celui-ci que le dossier "/admin/" est interdit d'accès à tous les robots (pour éviter que la ressource soit indexé).
+Une fois le fichier "robots.txt" trouvé, on voit dans celui-ci que le dossier "/admin/" est interdit d'accès à tous les robots (pour éviter que la ressource soit indexé).
 
 On va donc jeter un oeil dessus :
 
