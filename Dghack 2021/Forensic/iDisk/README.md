@@ -28,7 +28,7 @@ Fichier binaire ./Windows/WinSxS/amd64_microsoft-windows-a..ence-mitigations-c1_
 
 On a plusieurs fichiers contenant le nom ``ECORP``, dont un : `./Windows/System32/backup.ps1`, qui semble interessant.
 
-On va par conséquence lire le contenu de celui-ci :
+On va par conséquent lire le contenu de celui-ci :
 
 ```
 $ cat ./Windows/System32/backup.ps1
