@@ -23,7 +23,7 @@ But nothing important to flag this challenge.
 
 Now let's see commits history :
 
-![](img/04.png)
+![](img/05.png)
 
 Here the important file is `something_in_the_way.zip` so let's download this.
 
