@@ -85,7 +85,7 @@ void itachi(void)
 }
 ```
 
-So here we can see lots of operation and a call of ``putchar`` function at the end so that seems to be a function which show flag.
+So here we can see lots of operations and a call of ``putchar`` function at the end so that seems to be a function which show flag.
 
 Let's run ``revme`` with ``ltrace``:
 
