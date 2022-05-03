@@ -61,7 +61,7 @@ Dans cette fonction ``main``, nous pouvons voir qu'un nombre random est génér�
 
 Après nous voyons qu'il y a 3 variables dans une condition et que si cette condition est validé alors la fonction ``itachi`` sera lancé.
 
-Voyons qu'est-ce qu'il y a dans la fonction ``itachi``:
+Voyons ce qu'il y a dans la fonction ``itachi``:
 
 ```c
 void itachi(void)
