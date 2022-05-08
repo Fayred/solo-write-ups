@@ -6,7 +6,7 @@
 
 ## Analyse Statique
 
-Pour commencer voyons voir à quel genre de binanire nous avons affaire :
+Pour commencer voyons voir à quel genre de binaire nous avons affaire :
 
 ```
 $ file souk 
@@ -15,7 +15,7 @@ souk: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked
 
 On voit que c'est un **ELF-64bit stripped**.
 
-Pour trouver la fonction **main** dans gdb on va ouvrir ghidra et voir la fonction pris en argument par **__libc_start_main()** :
+Pour trouver la fonction **main** on va ouvrir ghidra et voir la fonction pris en argument par **__libc_start_main()** :
 
 ![](img/02.png)
 
@@ -101,7 +101,7 @@ undefined8 FUN_001013b2(void)
 
 On voit pas mal de chose dans cette fonction **main**. Pour commencer on voit la fonction **fgets()** appelé à la ligne 39.
 
-Elle prend en argument le poiteur vers lequel le mot de passe sera stocké **__s**, la taille du buffer **DAT_00104020** et le flux de lecture **stdin**.
+Elle prend en argument le pointeur vers lequel le mot de passe sera stocké **__s**, la taille du buffer **DAT_00104020** et le flux de lecture **stdin**.
 
 **DAT_00104020** vaut 0x47 soit 71 :
 
@@ -385,7 +385,7 @@ LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
 
 La comparaison est faite entre la valeur d'edx et eax.
 
-Si les deux valeurs sont égal alors le jump vers **0x5555555555bd**  sera effectué, c'est à dire qu'on éviter de mov la valeur 0 dans rbp-0x38, ce qui correspond à la ligne 56-57 du décompilo ghidra de la fonction **main**.
+Si les deux valeurs sont égal alors le jump vers **0x5555555555bd**  sera effectué, c'est à dire qu'on évitera de mov la valeur 0 dans rbp-0x38, ce qui correspond à la ligne 56-57 du décompilo ghidra de la fonction **main**.
 
 Il faut donc valider cette comparraison pour chaque caractère du mot de passe pour avoir notre message de validation.
 
@@ -640,7 +640,7 @@ for n in range(71):
 gdb.execute("q")
 ```
 
-On lance gdb avec notre script python et on à plus qu'à attendre :
+On lance gdb avec notre script python et on a plus qu'à attendre :
 
 ```
 $ gdb -x solver.py souk
