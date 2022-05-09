@@ -123,7 +123,7 @@ Ensuite une boucle est effectué ligne 55 et une comparaison est réalisé pour 
 
 Si le mot de passe est incorrect on aura le droit à un message d'échec :( :
 
-> Réessaie, peut-être que tu trouveras comment sortir de ce bazar.``
+> Réessaie, peut-être que tu trouveras comment sortir de ce bazar.
 
 Sinon :
 
