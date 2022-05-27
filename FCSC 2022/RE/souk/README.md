@@ -594,7 +594,7 @@ pwndbg>
 
 ```
 
-Nous voyons que la valeur de rdx et la même que pour le mot de passe : ``AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA`` on se doute donc que les caractères ne sont pas comparé dans le même ordre que celle initiale.
+Nous voyons que la valeur de rdx et la même que pour le mot de passe : ``AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA`` on se doute donc que les caractères ne sont pas comparé dans le même ordre que celui initial.
 
 ## Solution
 
